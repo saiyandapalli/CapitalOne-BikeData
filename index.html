@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head class="head">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <meta name="Sai Yandapalli" content="Data Analysis">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Quicksand:300|Share+Tech+Mono" rel="stylesheet">
+  </head>
+
+  <body>
+    <section class="firstscreen fullscreen" id = "first">
+      <div class="just-text">
+        <div id = "title"> Capital One: Bike Data </div>
+        <p class="undertext">_ <span class="typed-quotes"></span>_</p>
+      </div>
+      <div id="scrollerhome">
+        <a href="#bottom-page"><span></span></a>
+    </div>
+    </section>
+
+    <section class="secondscreenhome fullscreen" id="second">
+      <div id="row">
+    		<a href="popularstations.html" ><div class="button">Which stations are most popular?</div></a>
+    		<a href="averagedistance.html" ><div class="button">What is the average distance traveled?</div></a>
+    		<a href="bikescommute.html" ><div class="button">How many riders use bikes to commute?</div></a>
+
+    		<a href="ridershipseasons.html" ><div class="button">How does ridership change with seasons?</div></a>
+        <a href="breakdown.html" ><div class="button">What is the breakdown of Trip Route-Passholder combinations?</div></a>
+        <a href="datavisuals.html" ><div class="button">Other Data Visuals</div></a>
+
+        <a href="thedata.html" ><div class="button">The Data</div></a>
+        <a href="notebook.html" ><div class="button">Jupyter Notebook (.html)</div></a>
+        <a href=https://github.com/saiyandapalli/CapitalOne-BikeData ><div class="button">Github - Sai Yandapalli</div></a>
+    	</div>
+    </section>
+
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="assets/js/home.js"></script>
+  <script type = "text/javascript" src="assets/js/typed.js"></script>
+  <script type = "text/javascript">
+  var typed = new Typed(".typed-quotes", {
+    strings: [
+      "Hey there.",
+      "This is a web app made for Capital One.",
+      "I used Python and Jupyter to analyze LA Bike data.",
+      "This site displays my findings.",
+      "Feel free to explore!",
+    ],
+    smartBackspace: true,
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true,
+    });
+    //credits to Matt Boldt for typed.js
+  </script>
+</html>
